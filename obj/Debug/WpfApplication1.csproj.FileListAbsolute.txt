@@ -16,3 +16,4 @@ C:\Users\administador\Desktop\Karen\WpfApplication1\WpfApplication1\obj\Debug\Wp
 C:\Users\administador\Desktop\Karen\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
 C:\Users\administador\Desktop\Karen\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
 C:\Users\administador\Desktop\Karen\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Migrations.tablaem.resources
+C:\Users\administador\Desktop\Karen\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Migrations.deps.resources

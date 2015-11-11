@@ -12,5 +12,6 @@ namespace WpfApplication1
 
     {
        public DbSet <Empleados> Empleados { get; set;}
+       public DbSet <Departamento> Departamentos { get; set;}
     }
 }

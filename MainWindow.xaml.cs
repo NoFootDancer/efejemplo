@@ -151,5 +151,29 @@ namespace WpfApplication1
             // \d+  /   \d{3}  /   \d{1,5}[a-zA-z\s]  
             //
         }
+
+        private void Grid_Loaded_1(object sender, RoutedEventArgs e)
+        {
+           /* mibd db = new mibd();
+            cbdepts.ItemsSource = db.departamentos.toList();
+            cbdepts.DisplayMemberPath = "Nombre";
+            cbdepts.SelectedValuePath = "id";
+        
+            */ }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            if (Regex.IsMatch(txtDeps.Text, @"^[a-zA-Z]+$"))
+            {
+                mibd db = new mibd();
+                Departamento dep = new Departamento();
+                dep.Nombre = txtDeps.Text;
+
+
+                db.Departamentos.Add(dep);
+                db.SaveChanges();
+            }
+            else { MessageBox.Show("Verifique ingresar los campos correctos"); }
+        }
     }
 }

@@ -68,6 +68,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Departamento.cs" />
     <Compile Include="MiBd\demoEf.cs" />
     <Compile Include="Empleados.cs" />
     <Compile Include="MainWindow.xaml.cs">
@@ -76,10 +77,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MiBd\Departamento.cs" />
     <Compile Include="MiBd\mibd.cs" />
     <Compile Include="Migrations\201510281459136_tablaem.cs" />
     <Compile Include="Migrations\201510281459136_tablaem.Designer.cs">
       <DependentUpon>201510281459136_tablaem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511101642300_deps.cs" />
+    <Compile Include="Migrations\201511101642300_deps.Designer.cs">
+      <DependentUpon>201511101642300_deps.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -97,6 +103,9 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201510281459136_tablaem.resx">
       <DependentUpon>201510281459136_tablaem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511101642300_deps.resx">
+      <DependentUpon>201511101642300_deps.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
