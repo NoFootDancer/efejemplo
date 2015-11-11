@@ -37,6 +37,7 @@ namespace WpfApplication1
             {
                 emp.Nombre = unombre.Text;
                 emp.sueldo = int.Parse(unombre2.Text);
+                emp.DepartamentoId = (int)cbdepts.SelectedValue;
 
                 db.Empleados.Add(emp);
                 db.SaveChanges();
@@ -154,12 +155,12 @@ namespace WpfApplication1
 
         private void Grid_Loaded_1(object sender, RoutedEventArgs e)
         {
-           /* mibd db = new mibd();
-            cbdepts.ItemsSource = db.departamentos.toList();
+            mibd db = new mibd();
+            cbdepts.ItemsSource = db.Departamentos.ToList();
             cbdepts.DisplayMemberPath = "Nombre";
             cbdepts.SelectedValuePath = "id";
         
-            */ }
+            }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
@@ -174,6 +175,11 @@ namespace WpfApplication1
                 db.SaveChanges();
             }
             else { MessageBox.Show("Verifique ingresar los campos correctos"); }
+        }
+
+        private void cbdepts_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -10,6 +10,7 @@ namespace WpfApplication1
     {
         public int id { get; set; }
         public string Nombre { get; set; }
+        public virtual ICollection<Empleados> Empleados { get; set; }
 
     }
 }

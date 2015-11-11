@@ -87,6 +87,14 @@
     <Compile Include="Migrations\201511101642300_deps.Designer.cs">
       <DependentUpon>201511101642300_deps.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511111544564_bugfix.cs" />
+    <Compile Include="Migrations\201511111544564_bugfix.Designer.cs">
+      <DependentUpon>201511111544564_bugfix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511111608014_correciondep.cs" />
+    <Compile Include="Migrations\201511111608014_correciondep.Designer.cs">
+      <DependentUpon>201511111608014_correciondep.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -106,6 +114,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511101642300_deps.resx">
       <DependentUpon>201511101642300_deps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511111544564_bugfix.resx">
+      <DependentUpon>201511111544564_bugfix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511111608014_correciondep.resx">
+      <DependentUpon>201511111608014_correciondep.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

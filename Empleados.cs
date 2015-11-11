@@ -11,7 +11,7 @@ namespace WpfApplication1
         public int id { get; set;}
         public string Nombre { get; set; }
         public int sueldo { get; set; }
-
+        public virtual int DepartamentoId { get; set; }
 
     }
 }
